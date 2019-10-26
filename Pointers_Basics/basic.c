@@ -8,6 +8,6 @@ int main(int argc, char **argv)
     num = 100;
     numPtr = &num;
     num2 = *numPtr;
-	printf("num=%d, numPtr=%d, address of num=%d, num2=%d\n", num, numPtr, &num, num2);
+	printf("num=%d, numPtr=%d, address of num=%d, num2=%d,*numPtr=%d,&numPtr=%d\n", num, numPtr, &num, num2,*numPtr,&numPtr);
 	return 0;
 }
